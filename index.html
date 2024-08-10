@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+    <script src="https://kit.fontawesome.com/c6b29a93e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="media/Headshot.jpg" sizes="32x32">
+    <script src="src/script.js"></script>
+    <title>Teddy Walsh Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Teddy Walsh
+        </h1>
+        <h2>
+            Seeking a software and/or game development position on a collaborative team!
+        </h2>
+    </header>
+
+    <nav id="navbar">
+        <a href="#intro">Intro</a>
+        <a href="#projectList">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="media/Teddy-Walsh-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+
+    <main>
+
+        <div id="intro">
+            <div class="description">
+                <h3>
+                    Hello!
+                </h3>
+                <p>
+                    My name is Teddy Walsh (in case you thought I lied in the header...) and I am a game design and
+                    development student enrolled at Rochester Institute of Technology. I've been making games for years
+                    and years at this point.
+                </p>
+                <p>
+                    It started back in middle school when I would make games in Minecraft with my best friend programmed
+                    entirely using in-game command blocks, without mods, for all our friends to play. Ever since then,
+                    I've developed a hunger for game design.
+                </p>
+                <p>
+                    Before I knew how to program myself, that hunger had been expressed in the form of designing table top RPGs
+                    and D&D 5e homebrew consistently for nearly 5 years now. After learning engines like Unity and
+                    languages like C#, I'm starting to transfer this passion into something more palpable.
+                </p>
+                <p>
+                    I would love to work on your project! To do that though, I imagine I'll need to show some of
+                    <em>my</em> projects. That's fair... That's fair...
+                </p>
+            </div>
+
+            <div class="picture">
+                <img src="media/Headshot.jpg" alt="A photo of me">
+                <h5>
+                    Me!
+                </h5>
+            </div>
+        </div>
+
+        <div id="projectList">
+            <h3>
+                My Projects
+            </h3>
+
+            <p>
+                Click on the title of the project to check it out!
+            </p>    
+
+            <div id="tagSelectorsBox">
+                <div id="tagSelectorsTop">
+                    Select which types of projects you would like to see!
+                </div>
+                <div id="tagSelectorsBottom">
+                    <div id="tagSelectorCheckboxes">
+                        <!-- Internship -->
+                        <div>
+                            <input type="checkbox" class="tagCheckbox" id="internshipCheckbox" value="Internship" checked=true>
+                            <label for="internshipCheckbox">Internship</label>
+                        </div>
+
+                        <!-- Programming -->
+                        <div>
+                            <input type="checkbox" class="tagCheckbox" id="programmingCheckbox" value="Programming" checked=true>
+                            <label for="programmingCheckbox">Programming</label>
+                        </div>
+
+                        <!-- Game Design -->
+                        <div>
+                            <input type="checkbox" class="tagCheckbox" id="gameDesignCheckbox" value="Game Design" checked=true>
+                            <label for="gameDesignCheckbox">Game Design</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" class="tagCheckbox" id="webDesignCheckbox" value="Web Design" checked=true>
+                            <label for="webDesignCheckbox">Web Design</label>
+                        </div>
+
+                        <!-- Creative Writing -->
+                        <div>
+                            <input type="checkbox" class="tagCheckbox" id="creativeWritingCheckbox" value="Creative Writing" checked=true>
+                            <label for="creativeWritingCheckbox">Creative Writing</label>
+                        </div>
+                    </div>
+                    <div>
+                        <!-- <button id="clearButton" class="tagButton">Clear Tags</button> -->
+                        <!-- <button id="selectAllButton" class="tagButton">Select Tags</button> -->
+                        <button id="sortButton" class="tagButton">Sort</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="projectGroup">
+                <div id="projectDisplay">
+                    <p>Projects Loading!</p>
+                    <!-- Have nothing in here by default -->
+                </div>    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Contact</h2>
+        <div id="contact">
+            <a href="mailto:teddywalsh72@gmail.com"><i class="fa-solid fa-envelope fa-2xl" style="color: #402e2a;" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/teddywalsh/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #402e2a;" aria-hidden="true"></i></a>
+            <a href="https://github.com/walsh-teddy"><i class="fa-brands fa-square-github fa-2xl" style="color: #402e2a;" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
