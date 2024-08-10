@@ -247,8 +247,8 @@ h4 a:active {
 
 .tagButton {
     background-color:var(--button-default);
-    font-size: 15px;
-    font-weight: 75;
+    font-size: 30px;
+    font-weight: bolder;
     padding: 20px;
     border-width: 1px;
     flex-grow: 1;

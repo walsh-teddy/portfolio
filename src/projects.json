@@ -51,7 +51,7 @@
 
         {
             "name":"Flower Creator",
-            "link":"https://people.rit.edu/tjw6911/330/project-2/challenge.html",
+            "link":"https://walsh-teddy.github.io/Flower-Creator/",
             "tags":["Programming", "Game Design", "Web Design"],
             "paragraphs": [
                 "The Flower Creator uses something called \"phyllotaxis\" which is an algorithmic way using the golden ratio to simulate how the buds and petals of a flower would grow. I tried messing around with the numbers a bit and found it was quite a fun way to make other interesting patterns. I decided to expand on that idea and make a whole app out of it!",
@@ -82,7 +82,7 @@
 
         {
             "name":"Raining Cats and Dogs!",
-            "link":"https://people.rit.edu/~tjw6911/235/Project3/",
+            "link":"https://walsh-teddy.github.io/Raining-Cats-and-Dogs/",
             "tags":["Programming", "Game Design", "Web Design"],
             "paragraphs": [
                 "A fun arcade shooter built around a play on words! Shoot down the cats but don’t hit a dog! (Don’t worry, that’s switchable). See how high of a score you can get. My personal record is 70 (and as of writing, that's the world record.)",
@@ -110,7 +110,7 @@
 
         {
             "name":"Magic Flavor Finder",
-            "link":"https://people.rit.edu/~tjw6911/235/Project2/",
+            "link":"https://walsh-teddy.github.io/Magic-Flavor-Finder/",
             "tags":["Programming", "Web Design"],
             "paragraphs": [
                 "I love Magic The Gathering, but not for the typical reasons people like it. Sure, it's a deep level strategy game with great game design that I love, and yes it attracts many collectors, but my main draw to it is its world. I love the setting of Magic The Gathering, all the different strange planes with wild spells, interesting characters, and exciting story that showcases all these different ideas beautifully.",
@@ -141,7 +141,7 @@
 
         {
             "name":"D&D Spellbook",
-            "link":"https://people.rit.edu/tjw6911/330/project-1/home",
+            "link":"https://walsh-teddy.github.io/DnD-Spellbook/",
             "tags":["Programming", "Web Design"],
             "paragraphs": [
                 "The D&D Spellbook is an app that helps users create and track what spells their Dungeons and Dragons 5th Edition character has. This project I’m particularly satisfied with because several of my friends actually use it regularly to help manage their characters! I have been playing D&D since 2017 and as such I’m intimately familiar with the character creation process, both making my own characters and walking new players through the steps needed. One of the most complex and time consuming steps in my experience is reading through all the spells available and picking from them. I made this app to help newer players understand and keep track of their spell sheet.",
