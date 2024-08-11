@@ -18,6 +18,65 @@
         },
 
         {
+            "name": "Changeling",
+            "link": "https://www.changelingvr.com/",
+            "tags": ["Internship", "Programming", "Game Design"],
+            "paragraphs": [
+                "Changeling is a VR narrative puzzle game in which you play as a psychic detective, able to delve into the minds of members of a family, trying to solve the case of what is going on with their baby, all the while playing through psychedelic levels representing their minds. Changeling is the dream project of Elouise Oyzon (or “Weez” as we called her), one of the Game Design and Development teachers at RIT. Over the course of many semesters, she led groups of students as effectively employees to work on the game.",
+
+                "I got to work on it in the summer of 2023 and got to be in the team of people that were the first to work on the toddler’s level of about 8 people (we called ourselves “The Toddler Squad”). It was really interesting and fun getting to prototype the first step in a long line of development for a level, and getting to discuss core mechanics. We settled on the idea of using your imagination to animate toys to complete puzzles. As part of being so early in the development of this level, there was a big focus on documentation for future groups. You can find a copy of a page that I helped write for one of our mechanics linked in one of the windows to the right!",
+
+                "This was by far the largest project I’ve had the privilege of working on so far. We had about 60 total developers working while I was there, split up into numerous different teams; one for each level (Toddler Squad unite), a narrative team, a team focused on optimizing the assets and shaders, an audio team, and many others! I got to help coordinate actions between our team and other teams. We had constant communication with the narrative team since our level structure was still being established, and we found ways of compromising with the Tween’s level team to not overlap mechanics.",
+
+                "The project is made in Unreal Engine 4. We used Perforce primarily for version control and communicated in text channels and calls using discord. In my team, I specialized in making code that could interact with splines and have objects follow set paths at variable speeds and eventually change states. I also helped create a catapult object that would automatically calculate the height and speed to launch an object given a starting and target position using trigonometry."
+            ],
+            "gallery": [
+                {
+                    "src": "media/Changeling1.png",
+                    "alt": "A screenshot of the Unreal Engine 4 editor",
+                    "caption": "Using splines for apples that play Hide & Seek"
+                },
+                {
+                    "src": "media/Changeling2.png",
+                    "alt": "An image I drew in paint3D",
+                    "caption": "A proposition I drafted to my team of a possible mechanic"
+                },
+                {
+                    "src": "media/Changeling3.png",
+                    "alt": "A screenshot of a PDF",
+                    "caption": "<a href=\"media/BP_Spoonapult documentation.pdf\"  target=\"_blank\">Click here to see some documentation I helped write</a>"
+                }
+            ]
+        },
+
+        {
+            "name": "Bone Hunter",
+            "link": "https://bonehunter.framer.website/",
+            "tags": ["Programming", "Game Design"],
+            "paragraphs": [
+                "Bone Hunter is a side-scrolling action platformer set in a dark fantasy universe, inspired by things like Hollow Knight and Dead Cells. Bone Hunter was a very interesting project since it was originally created as a cap-stone project for a number of students in the California College of Art and Design (CCA), and through one of RIT’s professors, Jessica Bayliss, partnered with our class. They planned the levels and made the art assets, while we did the coding.",
+
+                "I worked in a team of 3 other students from RIT and I specialized in coding the boss of the first area, Zed, The Shrine Guardian. I was given a flowchart of different attacks and states that trigger off of eachother and was tasked with creating code that could actually simulate that. This was my first time using Unity’s animation program, so it took a lot of research and iteration, but eventually I was able to get a creature moving and triggering the right attacks (I didn’t have Zed’s animations yet, so I used one of the pre-existing zombie enemies and scaled it up). I coded my own framework for different attacks, each having a different animation trigger and later hitboxes it would spawn corresponding to the animation. One of the hardest parts was making the gameObject’s movement match up to how we wanted the animations to feel, especially the kinds of attacks that launch him into the air, since I also had to make my own movement system in which each attack used a vector2 as a relative target location.",
+
+                "Another challenge I faced with this project was the amount of code that was already written before I joined. Typically with my solo-projects, it's easy to know what everything does and know what to touch and not to touch, but in Bone Hunter, there was pages and pages and pages of documentation and folders and folders of code to sort through. I wasn’t going to be able to read through it all (try as I might), so I had to be strategic about what I’m researching and how much information my brain was able to take in. Through regular communication with my team lead, Sijal Jardat, who was more familiar with the code-base, and digging into relevant documents, I was able to find out what code was already implemented vs what I needed to write.",
+
+                "One of the final constraints on Bone Hunter was communication. Our colleagues were in California, which meant they were 3 hours behind us, so while we were working in-class, they were asleep, and while they were working in-class, we were doing other homework! We had limited time to communicate with them, so we made the best of what we had in our regular weekly meetings, in which we established a clear plan of what they needed from us and what we needed from them, as well as what documents on Confluence to keep an eye on. Any other brief questions were sent over discord, but we tried our best to play around the time delays. Luckily, having a bad college sleep schedule helped out for once since often they were still awake while I was working!"
+            ],
+            "gallery": [
+                {
+                    "src": "media/BoneHunter1.gif",
+                    "alt": "A gif of a really cool loking enemy working exactly as programmed",
+                    "caption": "Zed! (The guy I programmed)"
+                },
+                {
+                    "src": "media/BoneHunter2.png",
+                    "alt": "A screenshot of a pdf",
+                    "caption": "<a href=\"media/Zed-Documentation.pdf\"  target=\"_blank\">Click here to see the documentation I wrote for Zed</a>"
+                }
+            ]
+        },
+
+        {
             "name": "Boo!",
             "link": "https://narraator0.itch.io/boo",
             "tags":["Programming", "Game Design"],
