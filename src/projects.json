@@ -230,7 +230,40 @@
                     "caption":"My 14th level druid getting included above the search parameters"
                 }
             ]
+        },
 
+        {
+            "name":"The Time Capsule",
+            "link":"https://www.nexusmods.com/fallout4/mods/76743/",
+            "tags":["Game Design", "Creative Writing"],
+            "paragraphs": [
+                "The Time Capsule is a mod that I made for Fallout 4 in a team of 4 other students (called “Average Clefable”, after the pokemon) for a modding class at RIT over the course of 1 semester. I was the team lead and narrative designer, which means that I was in charge of managing/creating our schedule, keeping people on task, writing the story and dialogue, and levying out tasks. I also ended up being the voice for Giovanni, the central NPC, and implemented voice lines into the game.",
+
+                "The mod’s central concept was originally thought of by Tyler Machanic, one of the other members of my group. It follows Giovanni, a ghoul from pre-war times who has a time-capsule full of memorabilia that's been overrun by mirelurks (a crab-like enemy in Fallout). The time capsule itself is kept preserved by an experimental engine Giovanni created, that can put objects into a stasis, completely stopping the flow of time. As you delve through the time capsule, you start to learn that Giovanni might not be telling you everything he knows… We ended up with 3 possible endings, 2 new NPCs (both voiced), a new sub-area (the time capsule), and a new weapon (The Krono Gun).",
+
+                "As the team lead, one of the challenges that I had to deal with was what to do when we started running behind schedule. We are still human and we made mistakes (for now, we’ll see where that genetic modification project goes…), so there were a few times when we weren't able to get everything done that we had hoped for. Luckily, we expected this to happen and built in some buffer time of weeks towards the end of the schedule that we had for general polish and could re-use as needed. I also checked in with the team member who was falling behind and figured out the cause. Sometimes, work from other classes piled up, other times the task ended up being more complex than expected. In any case, we assessed the situation together and decided whether or not to re-route other people to the task to help. Once our level designer was having trouble detailing everything in time, so we gave some of his later work to a different member so that he would have more time to get details done.",
+
+                "Documentation was a point of focus for us. We created a design document early in the process to make sure we all were working with the same central vision, and we updated that document as the project evolved. We also had weekly presentations for our progress, in which we were tasked with making slides. Not only did they help us communicate our situation to the rest of the class, but they also served a double function of naturally guiding our conversations to the essential topics (what we got done, what we still have to do, and what changed). We also wrote a post-mortem document as one of our final deliverables (which is linked in one of the images to the right!)"
+            ],
+            "gallery": [
+                {
+                    "src":"media/TimeCapsule1.png",
+                    "alt":"A screenshot in-game from Fallout 4",
+                    "caption":"\"The Krono Gun\""
+                },
+
+                {
+                    "src":"media/TimeCapsule2.png",
+                    "alt":"A zoomed in screenshot of a ghoul from Fallout 4",
+                    "caption":"My favorite picture of Giovanni"
+                },
+
+                {
+                    "src":"media/TimeCapsule3.png",
+                    "alt":"A screenshot of a pdf we made",
+                    "caption":"<a href=\"media/Time-Capsule-Post-Mortem.pdf\"  target=\"_blank\">Click here to check out our post-mortem doc (including our original design doc)</a>"
+                }
+            ]
         }
     ]
 }
