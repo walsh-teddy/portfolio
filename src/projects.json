@@ -136,6 +136,28 @@
                     "caption":"A combination I found that draws exactly strait lines"
                 }
             ]
+        },
+
+        {
+            "name":"Short Stories",
+            "link":"ShortStories",
+            "tags":["Creative Writing", "Web Design"],
+            "paragraphs": [
+                "Game Design and Programming are 2 of my favorite ways to create, but since highschool, I’ve been strongly interested in Creative Writing, and most often that took the form of short stories. In particular, I was always interested in bending the artform and the medium to produce truly cerebral results. One of my favorite tropes was to play with how information was being presented and what that means for the characters.",
+
+                "While porting the short stories to my portfolio, I decided to refactor the CSS I use for this page to double on the other page. I probably could have found a more professional CSS file created by someone else, but I wanted to show off as much of my own work as possible. Besides the home page, I also wanted to add some spice to some of my short stories. In particular, look to A Day Like No Other and Elder Quest as stories that I tried to play with the medium of text somewhat. I plan on eventually doing the same to the other stories and giving each of them a distinct feel.",
+
+                "Most of the short stories in the list were created by me on my own when I had the urge to write, but one story in particular, Henry The Spider, I made in a class of other students interested in writing Short Stories. Henry The Spider went through 2 major revisions and long critiquing processes from both my professor, Robert Glick, and the other students. I really felt like I got to strip it down to the most essential lines and do away with any frivolities in the writings. Every sentence was used to communicate something important about the characters and their thoughts. It isn’t psychological or deal with the supernatural like most of my other stories, but I think its the best piece of creative writing I’ve written to date.",
+
+                "I wrote There's Something Behind The Moon one night when I had that one sentence stuck in my head; \"There's Something Behind The Moon\". I found the concept deeply intriguing. It ended up being one of my shortest short stories, but fortunately that put it just within range to be submitted to one of RIT’s student published magazines; Signatures, and to my excitement, it got in! It's all contained within the university itself, but it feels very nice to be able to wear the ribbon “published author” now."
+            ],
+            "gallery": [
+                {
+                    "src":"media/ShortStories1.jpg",
+                    "alt":"Me in a very cool hat and sunglasses running D&D",
+                    "caption":"This image isn't very relevant to short stories, but I need something here to be visually interesting!"
+                }
+            ]
 
         },
 
@@ -241,7 +263,7 @@
 
                 "The mod’s central concept was originally thought of by Tyler Machanic, one of the other members of my group. It follows Giovanni, a ghoul from pre-war times who has a time-capsule full of memorabilia that's been overrun by mirelurks (a crab-like enemy in Fallout). The time capsule itself is kept preserved by an experimental engine Giovanni created, that can put objects into a stasis, completely stopping the flow of time. As you delve through the time capsule, you start to learn that Giovanni might not be telling you everything he knows… We ended up with 3 possible endings, 2 new NPCs (both voiced), a new sub-area (the time capsule), and a new weapon (The Krono Gun).",
 
-                "As the team lead, one of the challenges that I had to deal with was what to do when we started running behind schedule. We are still human and we made mistakes (for now, we’ll see where that genetic modification project goes…), so there were a few times when we weren't able to get everything done that we had hoped for. Luckily, we expected this to happen and built in some buffer time of weeks towards the end of the schedule that we had for general polish and could re-use as needed. I also checked in with the team member who was falling behind and figured out the cause. Sometimes, work from other classes piled up, other times the task ended up being more complex than expected. In any case, we assessed the situation together and decided whether or not to re-route other people to the task to help. Once our level designer was having trouble detailing everything in time, so we gave some of his later work to a different member so that he would have more time to get details done.",
+                "As the team lead, one of the challenges that I had to deals with was what to do when we started running behind schedule. We are still human and we made mistakes (for now, we’ll see where that genetic modification project goes…), so there were a few times when we weren't able to get everything done that we had hoped for. Luckily, we expected this to happen and built in some buffer time of weeks towards the end of the schedule that we had for general polish and could re-use as needed. I also checked in with the team member who was falling behind and figured out the cause. Sometimes, work from other classes piled up, other times the task ended up being more complex than expected. In any case, we assessed the situation together and decided whether or not to re-route other people to the task to help. Once our level designer was having trouble detailing everything in time, so we gave some of his later work to a different member so that he would have more time to get details done.",
 
                 "Documentation was a point of focus for us. We created a design document early in the process to make sure we all were working with the same central vision, and we updated that document as the project evolved. We also had weekly presentations for our progress, in which we were tasked with making slides. Not only did they help us communicate our situation to the rest of the class, but they also served a double function of naturally guiding our conversations to the essential topics (what we got done, what we still have to do, and what changed). We also wrote a post-mortem document as one of our final deliverables (which is linked in one of the images to the right!)"
             ],

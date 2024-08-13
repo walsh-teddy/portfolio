@@ -1,0 +1,63 @@
+* {
+    --main-text-color: rgb(0, 0, 0);
+    --main-background-color: #ebebeb;
+    --side-color: #aa97e7;
+    --picture-background-color: #907AD6;
+    --link-hover-color: rgb(155, 41, 204);
+    --link-active-color: rgb(121, 49, 152);
+    
+    color: var(--main-text-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--side-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    max-width: 1250px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background-color: var(--main-background-color);
+    overflow: auto;
+    padding: 2em;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Name */
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+a:active {
+    color: var(--link-active-color);
+}
+
+/* Date */
+h3 {
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* Main Text */
+p {
+    font-size: 25px;
+    margin: 0px 100px;
+    text-indent: 50px;
+}
