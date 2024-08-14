@@ -1,0 +1,108 @@
+{
+    "Subclasses": [
+        {
+            "link": "Subclasses/Commander.html",
+            "name": "Commander",
+            "class": "Fighter",
+            "description": "Commanders are focused on supporting their allies through coordination and inspiration, shifting into formations and the battle shifts and changes"
+        },
+
+        {
+            "link": "Subclasses/PathOfCalamity.html",
+            "name": "Path of Calamity",
+            "class": "Barbarian",
+            "description": "Let your fury simmer inside of you like a bubbling cauldera of a volcano, until you errupt"
+        },
+
+        {
+            "link": "Subclasses/CollegeOfMyth.html",
+            "name": "College of Myth",
+            "class": "Bard",
+            "description": "Bards of this college take the study of legends and tales to a new extreme, summining projections directly from the stories they tell"
+        },
+
+        {
+            "link": "Subclasses/WayOfTheSpectre.html",
+            "name": "Way of The Spectre",
+            "class": "Monk",
+            "description": "Monks from this practice study the otherworldly abilities of ghosts and emulate them with their strange ki"
+        },
+
+        {
+            "link": "Subclasses/CollegeOfTheJester.html",
+            "name": "College of The Jester",
+            "class": "Bard",
+            "description": "These bards know just how to get under the enemies' skin, drawing all attention towards themselves"
+        },
+
+        {
+            "link": "Subclasses/PathOfMadness.html",
+            "name": "Path of Madness",
+            "class": "Barbarian",
+            "description": "The chaotic visions trapped within your mind are suddenly set loose into the \"real\" world"
+        },
+
+        {
+            "link": "Subclasses/TheConstruct.html",
+            "name": "The Construct",
+            "class": "Warlock",
+            "description": "Beings of absolute law and order often seek mortals who can aid in their journey to rid the world of both chaos and free will itself"
+        },
+
+        {
+            "link": "Subclasses/TheFlesh.html",
+            "name": "The Flesh",
+            "class": "Warlock",
+            "description": "This warlock patron is an unknowable elder god of twisting flesh, and the gifts it gives to its warlocks focus entirely on the physical form, both their own and others"
+        },
+
+        {
+            "link": "Subclasses/TheDarkMerchant.html",
+            "name": "The Dark Merchant",
+            "class": "Warlock",
+            "description": "Dark merchants treat their warlocks less like supplicants, and more like employes, expendable lives whos main value is to meet the bottom line"
+        },
+
+        {
+            "link": "Subclasses/WayOfTheBattleDancer.html",
+            "name": "Way of The Battle Dancer",
+            "class": "Monk",
+            "description": "These monks are practiced in perfoming and maintaning an elaborate dance, which includes the elements of the battle they are currently in"
+        },
+
+        {
+            "link": "Subclasses/TheDreamer.html",
+            "name": "The Dreamer",
+            "class": "Warlock",
+            "description": "There are many great beings that walk the realms of the unconcious, and often they rival those from the far plane in their incomprehensability"
+        },
+
+        {
+            "link": "Subclasses/CircleOfMetal.html",
+            "name": "Circle of Metal",
+            "class": "Druid",
+            "description": "Metal is usually avoided by druids, but druids in these circles seek out the strength and certainty they provide"
+        },
+
+        {
+            "link": "Subclasses/WayOfTheViper.html",
+            "name": "Way of The Viper",
+            "class": "Monk",
+            "description": "Viper monks find that the best way to end a fight is quickly and suddely"
+        },
+
+        {
+            "link": "Subclasses/CircleOfOoze.html",
+            "name": "Circle of Ooze",
+            "class": "Druid",
+            "description": "These druids find value in the shifting and consuming nature of acidic slimes, surviving in the darkest and dankest places in the world"
+        },
+
+        {
+            "link": "Subclasses/Sniper.html",
+            "name": "Sniper",
+            "class": "Rogue",
+            "description": "Snipers are focused on waiting paciently for the perfect opertunity to take their shot. Unlike other rogues who wish to zip around the battlefield, snipers choose to wage war from as far back as they can manage."
+        }
+    ]
+}

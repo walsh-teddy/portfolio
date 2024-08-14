@@ -128,7 +128,7 @@ let loadProjects = () => {
 
 window.onload = () => {
     // Fetch JSON data
-    fetch('src/projects.json')
+    fetch('projects.json')
 
         // Parse JSON
         .then((response) => response.json())

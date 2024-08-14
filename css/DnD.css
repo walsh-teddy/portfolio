@@ -1,0 +1,172 @@
+/* All CSS is based off of the recources found here: https://www.reddit.com/r/UnearthedArcana/ */
+
+* {
+    --text-color: rgb(0, 0, 0);
+    --header-color: #58180d;
+    --statblock-color: #9c2b1b;
+    --logo-color: #ed1c24;
+    --footer-text-color: #b89a67;
+    --horizontal-rules-color: #c9ad6a;
+    --footer-decoration-color: #e7d29b;
+    --table-color: #e0e5c1;
+    --table-color: #d8b6e4;
+    --background-color: #f2ece4;
+    --side-color: #aa9a85;
+
+    scroll-behavior: smooth;
+}
+
+/* Normal Text */
+@font-face { /* Default */
+    font-family: normalText;
+    src: url(fonts/Bookmania/Bookmania/Bookmania_Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /* Bold */
+    font-family: normalText;
+    src: url(fonts/Bookmania/Bookmania/Bookmania\ Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face { /* Italic */
+    font-family: normalText;
+    src: url(fonts/Bookmania/Bookmania/Bookmania\ Regular\ Italic.otf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face { /* Italic & bold */
+    font-family: normalText;
+    src: url(fonts/Bookmania/Bookmania/Bookmania\ Bold\ Italic.otf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Headers */
+@font-face {
+    font-family: headers;
+    src: url(fonts/MrsEaves/Mr_Eaves_Small_Caps.otf);
+}
+
+/* Table Text */
+@font-face { /* Default */
+    font-family: tableText;
+    src: url(fonts/ScalaSans/Scaly_Sans.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { /* Bold */
+    font-family: tableText;
+    src: url(fonts/ScalaSans/Scaly\ Sans\ Bold.otf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--side-color);
+}
+
+main {
+    max-width: 1250px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    overflow: auto;
+    padding: 2em;
+}
+
+h1, h2, h3, h5 {
+    color: var(--header-color);
+    font-family: "headers";
+    margin: 20px 10px 0px 10px;
+}
+
+/* Title (Class Name) */
+h1 {
+    font-size: 48px;
+}
+
+/* Class Features / Subclass Names */
+h2 {
+    font-size: 40px;
+}
+
+hr {
+    margin: 0px 10px 10px 10px;
+    border: 2px solid var(--horizontal-rules-color);
+}
+
+/* Subclass Features / Sub-sections (IE "Starting equipment" or "Preparing a casting spells") */
+h3 {
+    font-size: 30px;
+}
+
+/* List items (IE Fighting Style options or eldritch invocations)*/
+h5 {
+    font-size: 24px;
+}
+
+/* Normal Text */
+p, li, h4 {
+    color: var(--text-color);
+    font-size: 18px;
+    font-family: "normalText";
+    margin: 0px 10px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.itemList {
+    list-style-type: disc;
+}
+
+.newP {
+    text-indent: 1rem;
+}
+
+/* Reminder Rules Boxes */
+.RulesReminder {
+
+}
+
+/* Tables */
+table {
+    border: 0px;
+    border-spacing: 0px;
+    max-width: 500px;
+    margin-left: 20px;
+}
+
+.expandedSpellList th:nth-child(2) {
+    font-style: italic;
+}
+
+th {
+    font-size: 17px;
+    font-family: "tableText";
+    text-align: left;
+    font-weight: normal;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+th:nth-child(1) {
+    text-align: center;
+}
+
+/* Gotten from here: https://stackoverflow.com/questions/3084261/alternate-table-row-color-using-css */
+tr:nth-child(even) {
+    background-color: var(--table-color);
+}
+tr:nth-child(1) th {
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: "tableText";
+    font-weight: bold;
+}
