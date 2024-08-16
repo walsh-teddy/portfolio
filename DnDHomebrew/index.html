@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
     <script src="https://kit.fontawesome.com/c6b29a93e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/SelectionPage.css">
+    <link rel="icon" type="image/png" href="../media/Headshot.jpg" sizes="32x32">
     <script src="../src/DnDScript.js"></script>
     <title>Teddy Walsh D&D Homebrew</title>
 </head>
@@ -28,14 +29,19 @@
         <a href="#contact">Contact</a>
     </nav>
 
+
     <main>
+        <p>Here is a list of just about every piece of playable-homebrew that I've made and am happy with for <i>Dungeons and Dragon's 5th edition</i>. In general, they are ordered with my personal favorites being in the front (with the main exception of spells, since they are in order of spell level).</p>
+
+        <p>There were too many subclasses and spells, so I decided not to load them in by default and instead let you filter by class (or you can look at all of them with the "All" button).</p>
+
+        <p>All of the CSS stylings you see in the homebrew documents that look like the official Player's Handbook, I actually made myself, using the recources of the Unearthed Arcana Subredit! One thing I still plan on adding is the ability to add pictures to the sides of the page and allow the text to wrap around them. One of the best parts of the D&D books is the art!</p>
+
+        <p>I love writing homebrew content and flexing my game design muscles, but unfortunately, when I play, I am almost always the DM, which is great and lets me test out monster and magic item homebrew, but it does mean that when it comes to this content (content intended for players, not DMs), I have very little playtesting data. I would love to tweak and balance this content, but Im in severe lack of data right now! If you end up using any of this content in one of your games, feel free to contact me using the "Contact" link above (it brings you to the footer at the bottom of the page) and tell me about your experience!</p>
+        <!-- Subclass Selection -->
         <h1>Subclasses</h1>
-        <p>
-            Look at all of the subclasses or only the ones for a particular class. The ones towards the front 
-            of the list are the ones that I am more proud of. I don't have subclasses for every class (yet).
-        </p>
         <div class="sideList">
-            <button class="subclassFilterButton" value="All">All</button>
+            <button class="subclassFilterButton big" value="All">All</button>
             <button class="subclassFilterButton" value="Artificer">Artificer</button>
             <button class="subclassFilterButton" value="Barbarian">Barbarian</button>
             <button class="subclassFilterButton" value="Bard">Bard</button>
@@ -50,10 +56,35 @@
             <button class="subclassFilterButton" value="Warlock">Warlock</button>
             <button class="subclassFilterButton" value="Wizard">Wizard</button>
         </div>
+        <button id="subclassClearButton">Clear</button>
 
-        <div class="selectionGrid" id="subclassDisplay">
+        <div class="selectionGrid" id="subclassDisplay"></div>
 
+        <!-- Spell Selection -->
+        <h1>Spells</h1>
+        <div class="sideList">
+            <button class="spellFilterButton big" value="All">All</button>
+            <button class="spellFilterButton" value="Artificer">Artificer</button>
+            <button class="spellFilterButton" value="Bard">Bard</button>
+            <button class="spellFilterButton" value="Cleric">Cleric</button>
+            <button class="spellFilterButton" value="Druid">Druid</button>
+            <button class="spellFilterButton" value="Paladin">Paladin</button>
+            <button class="spellFilterButton" value="Ranger">Ranger</button>
+            <button class="spellFilterButton" value="Sorcerer">Sorcerer</button>
+            <button class="spellFilterButton" value="Warlock">Warlock</button>
+            <button class="spellFilterButton" value="Wizard">Wizard</button>
         </div>
+        <button id="spellClearButton">Clear</button>
+
+        <div class="selectionGrid" id="spellDisplay"></div>
+
+        <h1>Races</h1>
+
+        <div class="selectionGrid" id ="raceDisplay"></div>
+
+        <h1>Classes</h1>
+
+        <div class="selectionGrid" id ="fullClassDisplay"></div>
         
     </main>
 

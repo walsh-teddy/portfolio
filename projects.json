@@ -77,6 +77,29 @@
         },
 
         {
+            "name": "D&D Homebrew",
+            "link": "DnDHomebrew",
+            "tags": ["Game Design", "Creative Writing", "Web Design"],
+            "paragraphs": [
+                "I have been playing Dungeons and Dragons 5th Edition since 2016 and very quickly in that process, I started running my own games with friends! I found the pre-established settings of D&D to be interesting, but I was always drawn to creating my own worlds with my own factions and characters and monsters. Naturally, this lead to many of my ideas not being established in the official D&D content, so I found myself kitbashing together different monster stat blocks to create the concept I had in my mind.",
+
+                "I found that I had several ideas for subclasses that were not supported in the game yet, so I started writing them myself! It started out simple, with <i>Way of The Viper</i>, a subclass for the monk class, and progressively got more complex, with my most ambitious piece of homebrew content being the Plansewalker Class.",
+
+                "Most of my content is on my personal google drive, which is good for allowing friends to leave comments and easy formatting and adjustments, but not good for presentation, so one of the challenges I took upon myself was not only to convert it into readable and presentable HTML and CSS, but also recreate the styles of the official D&D Player’s Handbook using CSS and the resources on the <a href=”https://www.reddit.com/r/UnearthedArcana/wiki/resources/”>Unearthed Arcana Subredit</a>. I am quite happy with my results! Feel free to look at DnD.css, which I made for this exact project.",
+
+                "One of the major advantages of creating like this is how quickly a product can be turned out. Typically, for video game development, there's much more overhead needed before a game becomes playable; Art assets need to be made and systems need to be programmed, but with tabletop games there is far less work required from getting a concept into a playable prototype. Typically it is no more complex than writing the mechanics down! Furthermore, because I’m making custom content for D&D, which already has an expansive ruleset that most of my friends (playtesters) are already familiar with, I can prototype out mechanics, abilities, and spells over the course of hours, bringing down the overall production time needed even further. Playtesting is another question though, since I usually am the Dungeon Master, and thus am rarely playing the characters that would have these options open to them, I don’t have many games where my homebrew is being used and thus I can test it."
+            ],
+
+            "gallery": [
+                {
+                    "src":"media/DnD1.jpg",
+                    "alt":"Me in a very cool hat and sunglasses running D&D",
+                    "caption":"Getting into character"
+                }
+            ]
+        },
+
+        {
             "name": "Boo!",
             "link": "https://narraator0.itch.io/boo",
             "tags":["Programming", "Game Design"],

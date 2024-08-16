@@ -1,4 +1,4 @@
-/* All CSS is based off of the recources found here: https://www.reddit.com/r/UnearthedArcana/ */
+/* All CSS is based off of the recources found here: https://www.reddit.com/r/UnearthedArcana/wiki/resources/ */
 
 * {
     --text-color: rgb(0, 0, 0);
@@ -9,7 +9,7 @@
     --horizontal-rules-color: #c9ad6a;
     --footer-decoration-color: #e7d29b;
     --table-color: #e0e5c1;
-    --table-color: #d8b6e4;
+    /* --table-color: #d8b6e4; */
     --background-color: #f2ece4;
     --side-color: #aa9a85;
 
@@ -60,6 +60,12 @@
     src: url(fonts/ScalaSans/Scaly\ Sans\ Bold.otf);
     font-weight: bold;
     font-style: normal;
+}
+@font-face { /* Thin text (italix) */
+    font-family: tableText;
+    src: url(fonts/ScalaSans/Scaly\ Sans\ Italic.otf);
+    font-weight: normal;
+    font-style: italic;
 }
 
 body {
@@ -114,6 +120,10 @@ p, li, h4 {
     margin: 0px 10px;
 }
 
+.lore {
+    font-family: "tableText";
+}
+
 ul {
     margin: 0;
     list-style-type: none;
@@ -129,7 +139,17 @@ ul {
 
 /* Reminder Rules Boxes */
 .RulesReminder {
+    width: fit-content;
+    background-color: var(--table-color);
+    padding: 8px;
+    margin: 14px 0px;
+}
 
+.RulesReminder h2 {
+    font-family: "normalText";
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--text-color);
 }
 
 /* Tables */

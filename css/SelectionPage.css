@@ -192,11 +192,26 @@ nav a:active {
     border-radius: 10px;
 }
 
-.subclassFilterButton {
+button {
     background-color:var(--button-default);
     font-size: 15px;
     padding: 5px;
     border-width: 1px;
     flex-grow: 1;
     border-radius: 5px;
+}
+
+.big {
+    background-color: var(--side-color);
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px;
+    font-size: 20px;
 }

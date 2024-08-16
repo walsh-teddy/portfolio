@@ -104,5 +104,184 @@
             "class": "Rogue",
             "description": "Snipers are focused on waiting paciently for the perfect opertunity to take their shot. Unlike other rogues who wish to zip around the battlefield, snipers choose to wage war from as far back as they can manage."
         }
+    ],
+
+    "Spells": [
+        {
+            "link": "Spells/ArcaneSharpening.html",
+            "name": "Arcane Sharpening",
+            "classes": ["Artificer", "Bard", "Cleric", "Paladin", "Ranger", "Warlock", "Wizard"],
+            "level": 1
+        },
+
+        {
+            "link": "Spells/Breathless.html",
+            "name": "Breathless",
+            "classes": ["Bard", "Cleric", "Sorcerer","Warlock", "Wizard"],
+            "level": 2
+        },
+
+        {
+            "link": "Spells/Cuteify.html",
+            "name": "Cuteify",
+            "classes": ["Bard", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+            "level": 2
+        },
+
+        {
+            "link": "Spells/MirrorScry.html",
+            "name": "Mirror Scry",
+            "classes": ["Artificer", "Cleric", "Sorcerer", "Warlock", "Wizard"],
+            "level": 3
+        },
+
+        {
+            "link": "Spells/RocketDash.html",
+            "name": "Rocket Dash",
+            "classes": ["Artificer", "Sorcerer", "Wizard"],
+            "level": 3
+        },
+
+        {
+            "link": "Spells/Stonemail.html",
+            "name": "Stonemail",
+            "classes": ["Druid", "Ranger", "Sorcerer"],
+            "level": 3
+        },
+
+        {
+            "link": "Spells/TelekineticCrush.html",
+            "name": "Telekinetic Crush",
+            "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"],
+            "level": 3
+        },
+
+        {
+            "link": "Spells/AnglersLure.html",
+            "name": "Angler's Lure",
+            "classes": ["Artificer", "Bard", "Ranger", "Sorcerer", "Warlock", "Wizard"],
+            "level": 4
+        },
+
+        {
+            "link": "Spells/ArcaneReversal.html",
+            "name": "Arcane Reversal",
+            "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+            "level": 4
+        },
+
+        {
+            "link": "Spells/DraldinsCrystalShards.html",
+            "name": "Draldin's Crystal Shards",
+            "classes": ["Druid", "Sorcerer", "Wizard"],
+            "level": 4
+        },
+
+        {
+            "link": "Spells/Explode.html",
+            "name": "Explode",
+            "classes": ["Sorcerer", "Warlock", "Wizard"],
+            "level": 4
+        },
+
+        {
+            "link": "Spells/GrimPuppeteering.html",
+            "name": "Grim Puppeteering",
+            "classes": ["Cleric", "Warlock", "Wizard"],
+            "level": 4
+        },
+
+        {
+            "link": "Spells/MirrorShift.html",
+            "name": "Mirror Shift",
+            "classes": ["Cleric", "Sorcerer", "Warlock", "Wizard"],
+            "level": 5
+        },
+
+        {
+            "link": "Spells/RicksSecludedCabin.html",
+            "name": "Rick's Secluded Cabin",
+            "classes": ["Bard", "Druid", "Ranger", "Wizard"],
+            "level": 5
+        },
+
+        {
+            "link": "Spells/SkillDrain.html",
+            "name": "Skill Drain",
+            "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"],
+            "level": 5
+        },
+
+        {
+            "link": "Spells/ArcaneAnalysis.html",
+            "name": "Arcane Analysis",
+            "classes": ["Bard", "Wizard"],
+            "level": 6
+        },
+
+        {
+            "link": "Spells/FesteringWounds.html",
+            "name": "Festering Wounds",
+            "classes": ["Bard", "Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+            "level": 6
+        },
+
+        {
+            "link": "Spells/ControlSands.html",
+            "name": "Control Sands",
+            "classes": ["Druid", "Wizard"],
+            "level": 7
+        },
+
+        {
+            "link": "Spells/ThermalShock.html",
+            "name": "Thermal Shock",
+            "classes": ["Bard", "Druid", "Sorcerer", "Wizard"],
+            "level": 7
+        },
+
+        {
+            "link": "Spells/Chronostasis.html",
+            "name": "Chronostasis",
+            "classes": ["Sorcerer", "Wizard"],
+            "level": 8
+        },
+
+        {
+            "link": "Spells/MagicalInsulation.html",
+            "name": "Magical Insulation",
+            "classes": ["Bard", "Cleric", "Warlock", "Wizard"],
+            "level": 8
+        },
+
+        {
+            "link": "Spells/ClaimReality.html",
+            "name": "Claim Reality",
+            "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"],
+            "level": 9
+        },
+
+        {
+            "link": "Spells/CollapseSpace.html",
+            "name": "Collapse Space",
+            "classes": ["Sorcerer", "Wizard"],
+            "level": 9
+        }
+    ],
+
+    "Races": [
+        {
+            "link": "Races/Swarmborn.html",
+            "name": "Swarmborn",
+            "description": "Swarmborn are sentient hive minds made of swarms of tiny creatures, most often insects. For one reason or another they choose to adopt a humanoid shape although they are technically an amorphous blob. No two Swarmborn are the same."
+        }
+    ],
+
+    "FullClasses": [
+        {
+            "link": "https://docs.google.com/document/d/1vAQkLcXJ5Guoy9yEf1_AdzJVL3O_-Fj71LXxajOkPXk/edit?usp=sharing",
+            "name": "Planeswalker",
+            "description": "Hailing from the multiverse of <i>Magic The Gathering</i>, planeswalkers have the unique ability to jump between worlds. They cast spells, but instead of using spell slots, they use the 5 colors of manna. They have a unique subclass system in-which each level where they get a subclass feature, they can choose to pick a new one to dip into or continue along their main path, almost like multiclassing. They are support casters with a focus on summoning, though with the right colors of manna, they have access to every nearly spell in the game.</p><br><p><b>Note:</b> The class is written and completed, though I am still trying to find a way to format it into a page that works with HTML (particularly, a way to make the mana symbols), so for now, the link goes to the google doc page that I originally made it on.</p>"
+        }
     ]
 }
