@@ -1,5 +1,5 @@
 // Symbol files from: https://mtg.fandom.com/wiki/Category:Mana_symbols
-let rootFolder = "/../media/mtg/";
+let rootFolder = "../../media/mtg/";
 
 window.onload = () => {
     let paragraphs = document.querySelectorAll("*");
