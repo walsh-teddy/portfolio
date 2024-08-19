@@ -11,11 +11,11 @@ window.onload = () => {
         // Reaplce the placeholders with the mana symbols
 
         // Colored Manna
-        text = text.replaceAll("[w]", `<img src=\"${rootFolder}w.svg\" class=\"mannaSymbol\">`);
-        text = text.replaceAll("[u]", `<img src=\"${rootFolder}u.svg\" class=\"mannaSymbol\">`);
-        text = text.replaceAll("[b]", `<img src=\"${rootFolder}b.svg\" class=\"mannaSymbol\">`);
-        text = text.replaceAll("[r]", `<img src=\"${rootFolder}r.svg\" class=\"mannaSymbol\">`);
-        text = text.replaceAll("[g]", `<img src=\"${rootFolder}g.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[w]", `<img src=\"${rootFolder}W.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[u]", `<img src=\"${rootFolder}U.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[b]", `<img src=\"${rootFolder}B.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[r]", `<img src=\"${rootFolder}R.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[g]", `<img src=\"${rootFolder}G.svg\" class=\"mannaSymbol\">`);
 
         // Hybrid Manna ("(wu)" and "(uw)" should both work)
         text = text.replaceAll("[wu]", `<img src=\"${rootFolder}WU.svg\" class=\"mannaSymbol\">`);
