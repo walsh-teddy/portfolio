@@ -15,7 +15,7 @@ window.onload = () => {
         text = text.replaceAll("[u]", `<img src=\"${rootFolder}U.svg\" class=\"mannaSymbol\">`);
         text = text.replaceAll("[b]", `<img src=\"${rootFolder}B.svg\" class=\"mannaSymbol\">`);
         text = text.replaceAll("[r]", `<img src=\"${rootFolder}R.svg\" class=\"mannaSymbol\">`);
-        text = text.replaceAll("[g]", `<img src=\"${rootFolder}G.svg\" class=\"mannaSymbol\">`);
+        text = text.replaceAll("[g]", `<img src=\"${rootFolder}g.svg\" class=\"mannaSymbol\">`);
 
         // Hybrid Manna ("(wu)" and "(uw)" should both work)
         text = text.replaceAll("[wu]", `<img src=\"${rootFolder}WU.svg\" class=\"mannaSymbol\">`);
