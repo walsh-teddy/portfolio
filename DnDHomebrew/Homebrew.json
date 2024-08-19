@@ -279,9 +279,9 @@
 
     "FullClasses": [
         {
-            "link": "https://docs.google.com/document/d/1vAQkLcXJ5Guoy9yEf1_AdzJVL3O_-Fj71LXxajOkPXk/edit?usp=sharing",
+            "link": "Classes/Planeswalker.html",
             "name": "Planeswalker",
-            "description": "Hailing from the multiverse of <i>Magic The Gathering</i>, planeswalkers have the unique ability to jump between worlds. They cast spells, but instead of using spell slots, they use the 5 colors of manna. They have a unique subclass system in-which each level where they get a subclass feature, they can choose to pick a new one to dip into or continue along their main path, almost like multiclassing. They are support casters with a focus on summoning, though with the right colors of manna, they have access to every nearly spell in the game.</p><br><p><b>Note:</b> The class is written and completed, though I am still trying to find a way to format it into a page that works with HTML (particularly, a way to make the mana symbols), so for now, the link goes to the google doc page that I originally made it on.</p>"
+            "description": "Hailing from the multiverse of <i>Magic The Gathering</i>, planeswalkers have the unique ability to jump between worlds. They cast spells, but instead of using spell slots, they use the 5 colors of manna. They have a unique subclass system in-which each level where they get a subclass feature, they can choose to pick a new one to dip into or continue along their main path, almost like multiclassing. They are support casters with a focus on summoning, though with the right colors of manna, they have access to every nearly spell in the game."
         }
     ]
 }

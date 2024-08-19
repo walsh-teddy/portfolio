@@ -3,15 +3,16 @@
 * {
     --text-color: rgb(0, 0, 0);
     --header-color: #58180d;
-    --statblock-color: #9c2b1b;
+    --statblock-text-color: #9c2b1b;
     --logo-color: #ed1c24;
     --footer-text-color: #b89a67;
     --horizontal-rules-color: #c9ad6a;
     --footer-decoration-color: #e7d29b;
     --table-color: #e0e5c1;
-    /* --table-color: #d8b6e4; */
+    /* --table-color: #d8b6e4; */ /* Alternate purple color */
     --background-color: #f2ece4;
     --side-color: #aa9a85;
+    --statblock-background-color: #fdfbcb;
 
     scroll-behavior: smooth;
 }
@@ -51,19 +52,19 @@
 /* Table Text */
 @font-face { /* Default */
     font-family: tableText;
-    src: url(fonts/ScalaSans/Scaly_Sans.otf);
+    src: url(fonts/ScalaSans/ScalaSans/scala-sans-regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face { /* Bold */
     font-family: tableText;
-    src: url(fonts/ScalaSans/Scaly\ Sans\ Bold.otf);
+    src: url(fonts/ScalaSans/ScalaSans/scala-sans-bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 @font-face { /* Thin text (italix) */
     font-family: tableText;
-    src: url(fonts/ScalaSans/Scaly\ Sans\ Italic.otf);
+    src: url(fonts/ScalaSans/ScalaSans/scala-sans-regular-italic.ttf);
     font-weight: normal;
     font-style: italic;
 }
@@ -89,6 +90,7 @@ h1, h2, h3, h5 {
 
 /* Title (Class Name) */
 h1 {
+    margin-top: 60px;
     font-size: 48px;
 }
 
@@ -150,6 +152,7 @@ ul {
     font-weight: bold;
     font-size: 22px;
     color: var(--text-color);
+    margin-top: 0;
 }
 
 /* Tables */
@@ -160,8 +163,41 @@ table {
     margin-left: 20px;
 }
 
+.MediumTable {
+    min-width: 300px;
+}
+
 .expandedSpellList th:nth-child(2) {
     font-style: italic;
+}
+
+/* Class Feature tables */
+.ClassFeatures {
+    margin: 10px;
+    padding: 10px;
+    padding-right: 30px;
+    border: 2px var(--text-color) solid;
+    width: fit-content;
+}
+.ClassFeatures table {
+    min-width: 100%;
+    margin-right: 10px;
+}
+.ClassFeatures h4 {
+    margin-left: 20px;
+}
+/* Every collumn should be centered except for the features collumn */
+.ClassFeatures table tr th {
+    text-align: center;
+
+    /* TODO: This is not the right font, but it will have to do for now */
+    font-family: sans-serif;
+}
+.ClassFeatures table th:nth-child(3) {
+    text-align: left;
+
+    /* TODO: Find a way to make the width expand as much as possible to fit the content without hard-coding 300px */
+    min-width: 200px;
 }
 
 th {
@@ -189,4 +225,122 @@ h4 {
     font-size: 22px;
     font-family: "tableText";
     font-weight: bold;
+}
+
+/* Sections that say "spell-save" DC and "spell-attack-modifier" after "Spellcasting ability"*/
+.spellcastingNumbers {
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.StatBlock {
+    font-family: "tableText";
+    max-width: 50%;
+    padding-bottom: 10px;
+    margin: 10px 0px;
+    background-color: var(--statblock-background-color);
+    min-width: 500px;
+    height: fit-content;
+
+    border-top: 10px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: var(--horizontal-rules-color);
+}
+
+.StatBlock h1 {
+    font-size: 34px;
+    color: var(--statblock-text-color);
+    margin-top: 10px;
+}
+
+.StatBlock h2 {
+    font-size: 24px;
+    font-family: "tableText";
+    color: var(--statblock-text-color);
+}
+
+.StatBlock p {
+    font-family: "tableText";
+    font-size: 17px;
+    color: var(--statblock-text-color);
+}
+
+.StatBlock hr {
+    border: 1px solid var(--statblock-text-color);
+}
+
+.StatBlock .typeLine {
+    font-style: italic;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.StatBlock .Action {
+    color: var(--text-color);
+}
+
+.StatBlock img {
+    width: 100%;
+    margin: 0px 10px;
+    color: var(--text-color);
+}
+
+.ScoreRow {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.evenColumns {
+    display: flex;
+}
+
+.evenColumns div {
+    flex: 50%;
+}
+
+.twoColumns {
+    column-count: 2;
+}
+
+.threeColumns {
+    column-count: 3;
+}
+
+.fourColumns {
+    column-count: 4;
+}
+
+.spellList {
+    padding-left: 0;
+}
+
+.spellList li {
+    font-style: italic;
+}
+
+.twoColumns :nth-child(1), .threeColumns :nth-child(1), .fourColumns :nth-child(1) {
+    margin-top: 0px;
+}
+
+.twoColumns, .threeColumns, .fourColumns {
+    margin-top: 10px;
+}
+
+.navBar {
+    display: flex;
+    background-color: var(--footer-text-color);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navBar div {
+    font-family: "normalText";
+    background-color: var(--footer-decoration-color);
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 4px;
 }
