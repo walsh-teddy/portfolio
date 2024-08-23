@@ -42,7 +42,7 @@ h1, h2, h3, h4, button {
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     padding: 15px 0px;
     margin: 0;
 }
@@ -50,14 +50,14 @@ h1 {
 h2 {
     margin: 0pt auto;
     text-align: center;
-    font-size: 25px;
-    width: 40%;
+    font-size: 18px;
+    width: 60%;
     font-style: italic;
     padding-bottom: 15px;
 }
 
 h3 {
-    font-size: 45px;
+    font-size: 30px;
     margin: 0 0 10px 0;
     font-style: italic;
 }
@@ -74,13 +74,13 @@ h5 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 nav {
     background-color: var(--navbar-color);
     height: fit-content;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -125,12 +125,12 @@ main {
 }
 
 .picture img {
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .picture h5 {
     max-width: 200px;
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     text-align: center;
     overflow-wrap: normal;
@@ -203,7 +203,7 @@ h4 a:active {
 }
 
 #buttonList button {
-    font-size: 30px;
+    font-size: 18px;
     /* color: black; */
     font-weight: 750;
     border-radius: 30% 30% 0 0;
@@ -247,13 +247,13 @@ h4 a:active {
 
 .tagButton {
     background-color:var(--button-default);
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bolder;
     padding: 20px;
     border-width: 1px;
     flex-grow: 1;
-    width: 200px;
-    height: 90px;
+    width: 150px;
+    height: 75px;
     border-radius: 10px;
 }
 
