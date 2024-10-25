@@ -18,9 +18,12 @@ let init = (json) => {
     projectList = json.projects;
 
     // Set up button functions
-    sortButton.onclick = loadProjects;
-    //clearButton.onclick = clearTags;
-    //selectAllButton.onclick = selectAllTags;
+    sortButton.onclick = function () {
+        projectDisplay.innerHTML = '<p>Projects Loading...<p>';
+
+        // Add a pause to make it clear the projects are loading (sneaky feedback, hehehaha)
+        setTimeout(loadProjects, 250);
+    }
 
     // Load all the projects by default
     loadProjects();

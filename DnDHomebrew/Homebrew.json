@@ -115,6 +115,13 @@
         },
 
         {
+            "link": "Spells/Vigilance.html",
+            "name": "Vigilance",
+            "classes": ["Bard", "Druid", "Paladin", "Ranger", "Wizard"],
+            "level": 1
+        },
+
+        {
             "link": "Spells/Breathless.html",
             "name": "Breathless",
             "classes": ["Bard", "Cleric", "Sorcerer","Warlock", "Wizard"],
