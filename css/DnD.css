@@ -362,10 +362,10 @@ h4 {
         column-count: 1;
     }
     .threeColumns {
-        column-count: 2;
+        column-count: 1;
     }
     .fourColumns {
-        column-count: 2;
+        column-count: 1;
     }
     .evenColumns {
         columns: 1;
